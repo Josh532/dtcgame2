@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick-a-Path Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="text/javascript" defer></script>
+</head>
+<style>
+    button{
+        color: black;
+    }
+</style>
+<body>
+    <div class="game-container">
+        
+
+
+    <div id="page-1" class="page visible"><h2>Voice</h2>
+      <div class="text" id="text-1">David...</div>
+      <ul class="options">
+
+        <li><button onclick="choosePath(2)">continue</button ></li>
+      </ul>
+    </div>
+
+    <div id="page-2" class="page"> <h2>Voice</h2>
+      <div class="text" id="text-2">David, open your eyes</div>
+      <ul class="options">
+        <li><button onclick="choosePath(3)">continue</button></li>
+      </ul>
+    </div>
+
+    <div id="page-3" class="page"> <h2>David</h2>
+        <div class="text" id="text-3">Who's there ?</div>
+        <ul class="options">
+          <li><button onclick="choosePath(4)">continue</button></li>
+        </ul>
+      </div>
+
+      <div id="page-4" class="page"> <h2>Voice</h2>
+        <div class="text" id="text-4">David, you've been asleep for the past 1,000 years.</div>
+        <ul class="options">
+          <li><button onclick="choosePath(5)">continue</button></li>
+        </ul>
+    </div>
+
+    <div id="page-5" class="page"> <h2>David</h2>
+        <div class="text" id="text-5">Wait what?</div>
+        <ul class="options">
+          <li><button onclick="choosePath(6)">continue</button></li>
+        </ul>
+    </div>
+
+    <div id="page-6" class="page"> <h2>Voice</h2>
+        <div class="text" id="text-6">It's 2020</div>
+        <ul class="options">
+          <li><button onclick="choosePath(7)">continue</button></li>
+        </ul>
+    </div>
+
+    
+    <div id="page-7" class="page"> <h2>Voice</h2>
+      <div class="text" id="text-7">Elon musk is taking over the world and it's your job to stop him</div>
+      <ul class="options">
+        <li><button onclick="choosePath(8)">continue</button></li>
+      </ul>
+  </div>
+
+    <div id="page-8" class="page"> <h2></h2>
+        <div class="text" id="text-8"><h3>Elon musk the AI strikes back</h3></div>
+        <ul class="options">
+          <li><button onclick="choosePath(9)">continue</button></li>
+        </ul>
+    </div>
+
+    <div id="page-9" class="page">
+        <h1></h1>
+        <h1></h1>
+        <ul class="options">
+          <li><button onclick="choosePath(10)">continue</button></li>
+        </ul>
+    </div>
+</body>
+</html>
